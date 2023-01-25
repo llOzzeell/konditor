@@ -1,36 +1,32 @@
 {
   "Week":{
-    "_": { "items": 10 },
 
+    "_": { "items": 10 },
     "value": {
       "number": {
         "min": 0,
         "max": 1000
       }
-    },
-
+    }
   },
 
   "Month":{
     "_": { "items": 30 },
-
     "value": {
       "number": {
         "min": 0,
         "max": 1000
       }
-    },
+    }
   },
 
   "Year":{
     "_": { "items": 12 },
-
     "value": {
       "number": {
         "min": 7000,
         "max": 8000
       }
-    },
+    }
   }
-  
 }
