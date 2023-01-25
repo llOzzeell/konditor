@@ -2,31 +2,49 @@
   "Week":{
 
     "_": { "items": 10 },
+
     "value": {
       "int": {
         "min": 0,
         "max": 1000
       }
+    },
+
+    "label": {
+      "string": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     }
+
   },
 
   "Month":{
+
     "_": { "items": 30 },
+
     "value": {
       "int": {
         "min": 0,
         "max": 1000
       }
+    },
+
+    "label": {
+      "string": ["1.01", "2.01", "3.01", "4.01", "5.01", "6.01", "7.01", "8.01", "9.01"]
     }
   },
 
   "Year":{
+
     "_": { "items": 12 },
+
     "value": {
       "int": {
         "min": 7000,
         "max": 8000
       }
+    },
+    
+    "label": {
+      "string": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     }
   }
 }
